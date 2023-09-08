@@ -1,3 +1,8 @@
-^ “Kỹ năng tạo lập văn bản bằng tiếng Việt” (PDF). Bản gốc (PDF) lưu trữ ngày 1 tháng 10 năm 2017. Truy cập ngày 1 tháng 10 năm 2017.
-^ “Giáo trình Soạn thảo văn bản” (PDF). Bản gốc (PDF) lưu trữ ngày 1 tháng 10 năm 2017. Truy cập ngày 1 tháng 10 năm 2017.
-^ “Một số vấn đề chung về Văn bản quản lý hành chính nhà nước”. Bộ Tài chính. Bản gốc lưu trữ ngày 1 tháng 10 năm 2017. Truy cập ngày 1 tháng 10 năm 2017.
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
+options = webdriver.ChromeOptions()
+options.add_argument('user-data-dir=C:\\Users\\gupta\\AppData\\Local\\Google\\Chrome\\User Data')
+options.add_argument('profile-directory=Profile 1')
+driver = webdriver.Chrome(executable_path=r'C:\Program Files (x86)\chromedriver.exe', options=options)
+driver.get('https://google.com')
