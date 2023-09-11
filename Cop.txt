@@ -1,6 +1,1 @@
-sddafanfsdfsd
-sdf
-sadf
-asdf
-sda
-fsada
+/party-fee-collection/batch/file-name/MCB
